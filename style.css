@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+    background: url("https://i.imgur.com/9lDRKDJ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poiret One";
+}
+
+.board h1 {
+    background-color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border: solid 2px black;
+}
+
+button {
+    background-color: #fff;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.column {
+    float: left;
+    background-color: #fff;
+    margin: 5px;
+    min-height: 400px;
+    min-width: 200px;
+    border: solid 1px black;
+}
+
+.column-title {
+    text-align: center;
+}
